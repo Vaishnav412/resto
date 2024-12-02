@@ -1,0 +1,28 @@
+<nav class="navbar">
+    <div class="navbar-container">
+      <!-- Logo -->
+      <a href="/" class="navbar-brand">
+        <img
+          src="https://i.postimg.cc/KvScDXms/pngtree-food-logo-png-image-8239850.png"
+          alt="RESTO Logo"
+        />
+        RESTO
+      </a>
+  
+      <!-- Hamburger Icon -->
+      <button class="resto" (click)="toggleNavbar()">
+        ☰
+      </button>
+  
+      <!-- Navbar Links -->
+      <ul [class.active]="isNavbarOpen" class="navbar-links">
+        <li><a href="/home">Home</a></li>
+        <li><a routerLink="/menu">Menu</a></li>
+        <li><a href="/kitchen">Kitchen</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+
+      </ul>
+    </div>
+  </nav>
+  

@@ -1,0 +1,8 @@
+.modal-body {
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  .card{
+    box-shadow: 0px 0px 15px #c3bcbc;
+    border: none;
+  }
